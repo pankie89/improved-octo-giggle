@@ -10,7 +10,7 @@ import time
 
 # ================== 通用工具函數 ==================
 def show_images_grid(images, titles, rows, cols, figsize=(15, 10), save_path=None):
-    """通用图像网格显示函数"""
+    """通用圖像網格顯示函數"""
     plt.figure(figsize=figsize)
     for i in range(len(images)):
         plt.subplot(rows, cols, i + 1)
